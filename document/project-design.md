@@ -134,8 +134,13 @@ Unequal Columns
 
 ### Code Process
 
-- Write Component with mock API
-- Write Unit Test
+- Build Vue project
+- Integration
+  - Add Vue Router <https://router.vuejs.org/>
+  - Add Axios for API Call <https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html>
+  - Add Mock API 
+  - Add Unit Test https://vuejs.org/v2/cookbook/unit-testing-vue-components.html
+- Implement Pages 
 
 
 
