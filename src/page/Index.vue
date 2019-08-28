@@ -3,16 +3,16 @@
     <AppHeader />
     <AppNav />
     <div class="main">
-      I am main
+      I am Index Page...
     </div>
     <AppFooter />
   </div>
 </template>
 
 <script>
-  import AppHeader from "../common/AppHeader";
-  import AppNav from "../common/AppNav";
-  import AppFooter from "../common/AppFooter";
+  import AppHeader from "../components/AppHeader";
+  import AppNav from "../components/AppNav";
+  import AppFooter from "../components/AppFooter";
   export default {
     name: "Index",
     components: {AppFooter, AppNav, AppHeader}
