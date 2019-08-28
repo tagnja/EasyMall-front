@@ -1,26 +1,12 @@
 <template>
   <div id="app">
-    <AppHeader />
-    <AppNav />
-    <Index />
-    <AppFooter />
+    <router-view/>
   </div>
 </template>
 
 <script>
-import AppNav from './common/AppNav.vue'
-import AppHeader from "./common/AppHeader";
-import AppFooter from "./common/AppFooter";
-import Index from "./page/Index";
-
 export default {
-  name: 'app',
-  components: {
-      AppHeader,
-      AppNav,
-      Index,
-      AppFooter
-  }
+  name: 'App'
 }
 </script>
 

@@ -1,18 +1,27 @@
 <template>
+  <div id="index">
+    <AppHeader />
+    <AppNav />
     <div class="main">
-        I am main
+      I am main
     </div>
+    <AppFooter />
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "Index"
-    }
+  import AppHeader from "../common/AppHeader";
+  import AppNav from "../common/AppNav";
+  import AppFooter from "../common/AppFooter";
+  export default {
+    name: "Index",
+    components: {AppFooter, AppNav, AppHeader}
+  }
 </script>
 
 <style scoped>
-    .main{
-        background-color: darkgrey;
-        margin: 20px 0 20px 0;
-    }
+  .main {
+    background-color: darkgrey;
+    margin: 20px 0 20px 0;
+  }
 </style>
