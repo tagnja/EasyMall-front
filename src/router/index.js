@@ -1,19 +1,19 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/page/Index'
+import Index from '@/pages/Index'
 // login
-import Signin from '@/page/login/Signin'
-import Signup from '@/page/login/Signup'
+import Signin from '@/pages/login/Signin'
+import Signup from '@/pages/login/Signup'
 // shoppingcart
-import ShoppingCart from '@/page/shoppingcart/ShoppingCart'
+import ShoppingCart from '@/pages/shoppingcart/ShoppingCart'
 // product
-import Category from '@/page/product/Category'
-import Search from '@/page/product/Search'
-import ProductInfo from '@/page/product/ProductInfo'
+import Category from '@/pages/product/Category'
+import Search from '@/pages/product/Search'
+import ProductInfo from '@/pages/product/ProductInfo'
 // user
-import UserCenter from '@/page/user/UserCenter'
-import UserAddress from '@/page/user/UserAddress'
-import UserOrder from '@/page/user/UserOrder'
+import UserCenter from '@/pages/user/UserCenter'
+import UserAddress from '@/pages/user/UserAddress'
+import UserOrder from '@/pages/user/UserOrder'
 
 
 Vue.use(Router)
