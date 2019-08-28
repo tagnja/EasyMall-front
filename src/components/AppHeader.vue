@@ -1,16 +1,22 @@
 <template>
     <div class="header">
         <div class="column logo">
-            <img alt="logo" src="../../static/img/easy-mall-logo.png" />
+          <router-link to="/"><img alt="logo" src="../../static/img/easy-mall-logo.png" /></router-link>
         </div>
         <div  class="column">
-            Search <input type="text"/>
+          <router-link to="/search/1/products">Search</router-link> <input type="text"/>
         </div>
         <div class="column">
-            User
+            <router-link to="/user-center">User</router-link>
         </div>
         <div class="column">
-            ShoppingCart
+            <router-link to="/shopping-cart">ShoppingCart</router-link>
+        </div>
+        <div class="column">
+            <router-link to="/signin">Signin</router-link>
+        </div>
+        <div class="column">
+          <router-link to="/signup">Signup</router-link>
         </div>
     </div>
 </template>

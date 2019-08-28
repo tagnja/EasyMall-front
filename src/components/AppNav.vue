@@ -1,8 +1,9 @@
 <template>
     <div class="nav">
-        <a class="column">cate1</a>
-        <a class="column">cate2</a>
-        <a class="column">cate3</a>
+      <router-link to="/category/1/products" class="column">cate1</router-link>
+      <router-link to="/category/2/products" class="column">cate2</router-link>
+      <router-link to="/category/3/products" class="column">cate3</router-link>
+      <router-view />
     </div>
 </template>
 
