@@ -1,0 +1,20 @@
+{
+  "ret_code": 0,
+  "ret_msg": "success",
+  "data": {
+    "categories": [
+      {
+        "id": "1",
+        "name": "Clothes",
+        "url": "",
+        "sort_num": 1
+      },
+      {
+        "id": "2",
+        "name": "Book",
+        "url": "",
+        "sort_num": 2
+      }
+    ]
+  }
+}

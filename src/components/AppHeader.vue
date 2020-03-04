@@ -29,13 +29,13 @@
 
 <style scoped>
     .header{
-        background-color: lightblue;
+        /*background-color: lightblue;*/
         height: 80px;
         margin: 20px 0 20px 0;
     }
 
     .column {
-        background-color: darkgray;
+        /*background-color: darkgray;*/
         float: left;
         padding: 0 10px 0 10px;
     }

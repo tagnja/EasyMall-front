@@ -4,18 +4,10 @@
     <AppNav />
     <div>
         Category {{ $route.params.id }} Product List...
-        <ul>
-            <li><router-link to="/products/1">Product 1</router-link></li>
-            <li><router-link to="/products/2">Product 2</router-link></li>
-            <li><router-link to="/products/3">Product 3</router-link></li>
-        </ul>
-
-      <ol>
-        <li v-for="type in types">
-          {{ type.name }}
-        </li>
-      </ol>
-      test
+        <div v-for="product in products">
+            <div><router-link v-bind:to="'/products/' + product.id">{{ product.name }}</router-link></div>
+        </div>
+        <router-view/>
     </div>
     <AppFooter />
   </div>
@@ -25,27 +17,18 @@
     import AppHeader from "../../components/AppHeader";
     import AppNav from "../../components/AppNav";
     import AppFooter from "../../components/AppFooter";
-    import axios from 'axios'
+    import { getProductsByCategoryId } from '@/api/mock/index.js'
 
     export default {
         name: "Search",
         components: {AppFooter, AppNav, AppHeader},
         data() {
           return {
-            types: []
+              products: []
           }
         },
         created() {
-             const url = 'http://localhost:8080/api/v1/types'
-             axios
-               .get(url)
-               .then(response => {
-                  console.log("response: " + JSON.stringify(response))
-                  this.types = response.data.data;
-               })
-               .catch(error => {
-                  console.log(error)
-               })
+            this.products = getProductsByCategoryId()
          }
     }
 </script>

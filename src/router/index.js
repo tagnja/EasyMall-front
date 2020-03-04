@@ -14,12 +14,19 @@ import ProductInfo from '@/pages/product/ProductInfo'
 import UserCenter from '@/pages/user/UserCenter'
 import UserAddress from '@/pages/user/UserAddress'
 import UserOrder from '@/pages/user/UserOrder'
-
+// test
+import Home from '@/pages/Home'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // test
+    {
+      path: "/home",
+      name: "Home",
+      component: Home
+    },
     {
       path: '/',
       name: 'Index',

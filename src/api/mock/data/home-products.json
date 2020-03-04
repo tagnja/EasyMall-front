@@ -1,0 +1,62 @@
+{
+    "ret_code": 0,
+    "ret_msg": "success",
+    "data": {
+        "carousel_list": [
+            {
+                "name": "",
+                "url": "",
+                "pic_url": "https://i.loli.net/2018/11/04/5bdebbd45a0b0.png",
+                "sort_num": 1
+            },
+            {
+                "name": "",
+                "url": "",
+                "pic_url": "https://s1.ax1x.com/2018/05/19/Ccdiid.png",
+                "sort_num": 2
+            }
+        ],
+        "product_list_arr": [
+            {
+                "id": "1",
+                "list_name": "热门推荐",
+                "list_data": [
+                    {
+                        "id": "1",
+                        "name": "iPhone X",
+                        "url": "",
+                        "pic_url": "",
+                        "sort_num": 1
+                    },
+                    {
+                        "id": "2",
+                        "name": "MacBook Pro",
+                        "url": "",
+                        "pic_url": "",
+                        "sort_num": 2
+                    }
+                ]
+            },
+            {
+                "id": "1",
+                "list_name": "官方精选",
+                "list_data": [
+                    {
+                        "id": "1",
+                        "name": "iPhone X",
+                        "url": "",
+                        "pic_url": "",
+                        "sort_num": 1
+                    },
+                    {
+                        "id": "2",
+                        "name": "MacBook Pro",
+                        "url": "",
+                        "pic_url": "",
+                        "sort_num": 2
+                    }
+                ]
+            }
+        ]
+    }
+}
